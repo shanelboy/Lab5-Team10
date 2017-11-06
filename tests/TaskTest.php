@@ -10,7 +10,7 @@ if (! class_exists('PHPUnit_Framework_TestCase'))
     class_alias('PHPUnit\Framework\TestCase', 'PHPUnit_Framework_TestCase');
 }
 
- class CITest extends PHPUnit_Framework_TestCase
+ class CITestTask extends PHPUnit_Framework_TestCase
  {
      private $CI;
      public function setUp()
